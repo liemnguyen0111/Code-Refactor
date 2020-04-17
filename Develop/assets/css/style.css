@@ -6,7 +6,7 @@
     margin: 0;
 }
 
-/* Adding a smooth scrolling behavior to make it easy for user to follow through the page */
+/* Added: a smooth scrolling behavior to make it easy for user to follow through the page  (IE/Safari not supported)*/
 
 html {
     scroll-behavior: smooth;
@@ -73,7 +73,7 @@ body {
     text-decoration: none;
 }
 
-/* Navigation change text size when mouse move over */
+/* Added : navigation change text size when mouse move over */
 
 .mainNav a:hover {
     color: lightgray;
